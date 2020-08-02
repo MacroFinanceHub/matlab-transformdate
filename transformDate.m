@@ -1,5 +1,5 @@
 function dateOut = transformDate(dateIn, varargin)
-%TRANSFORMDATE converts any MATLAB dates to a specified format
+%TRANSFORMDATE converts any MATLAB date to/from a specified format
 %
 % TRANSFORMDATE takes a dateIn with a formatIn (can be specified or can
 % allow the function to classify it), transforms it to a datenum, and then
