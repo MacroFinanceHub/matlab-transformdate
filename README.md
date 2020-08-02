@@ -33,7 +33,7 @@ transformDate('01-Jan-2019', 'formatOut', 'datetime')
 Return a specified `yyyy/mm-dd` from a specified `mm/dd/yyyy`
 
 ```matlab
-transformDate('01/01/2019', 'formatIn', 'mm/dd/yyyy', 'formatOut', 'yyyy/mm-dd');
+transformDate('01/01/2019', 'formatIn', 'mm/dd/yyyy', 'formatOut', 'yyyy/mm-dd')
 ```
 
 ## Contributing
