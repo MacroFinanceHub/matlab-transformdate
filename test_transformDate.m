@@ -4,7 +4,7 @@ classdef test_transformDate < matlab.unittest.TestCase
     % USAGE:
     %   >> runtests('test_transformDate')
     %
-    % Santiago I. Sordo Palacios, 2016
+    % Santiago I. Sordo Palacios, 2019
 
     properties
         datenumDate = 737426; % 01-Jan-2019
