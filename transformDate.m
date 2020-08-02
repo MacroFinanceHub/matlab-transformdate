@@ -65,11 +65,6 @@ switch formatIn
         dateAsNum = datenum(dateIn, formatIn);
 end % switch-case
 
-% Check the datenum
-assert(isnumeric(dateAsNum), ...
-    'transformDate:badParse', ...
-    'Temporary dateAsNum is not numeric');
-
 % Convert datenum to outgoing date
 switch formatOut
     case {'double', 'datenum'}
@@ -82,5 +77,5 @@ switch formatOut
         dateOut = datestr(dateAsNum, formatOut);
 end % switch-case
 
-end % function-parseDate
+end % function-transformDate
 
